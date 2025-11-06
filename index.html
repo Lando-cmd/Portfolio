@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lando-cmd | Developer Portfolio</title>
-
-    <!-- This is the line that connects your CSS to your HTML -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -35,8 +33,8 @@
             <p>
                 Hello! I'm a developer with a passion for cybersecurity, backend systems, and creating tools
                 that solve real-world problems. I enjoy the challenge of learning new technologies and applying them
-                to build efficient and robust applications. My experience includes building projects like the
-                Network Intrusion Detection System you see below.
+                to build efficient and robust applications. My experience includes building projects like the 
+                ones you see below.
             </p>
         </section>
 
@@ -45,16 +43,63 @@
         <!-- Projects Section -->
         <section id="projects">
             <h2>My Projects</h2>
+
+            <!-- Honeypot Project -->
+            <div class="project-card">
+                <h3>Python Honeypot with GUI</h3>
+                <p>
+                    A Python-based honeypot with a graphical interface that listens for suspicious network connections. It logs connection data, handles client interactions, detects privilege escalation, performs Geo-IP lookups, and exports logs to CSV.
+                </p>
+                <a href="https://github.com/Lando-cmd/Honeypot" target="_blank">View on GitHub</a>
+            </div>
+
+            <!-- Network Scanner Project -->
+            <div class="project-card">
+                <h3>Network Device & Port Scanner</h3>
+                <p>
+                    A lightweight Python-based network scanner that identifies active devices on a local network, collects IP/MAC addresses, scans for open ports, and generates detailed JSON and CSV reports.
+                </p>
+                <a href="https://github.com/Lando-cmd/NTWK-Scanner" target="_blank">View on GitHub</a>
+            </div>
+
+            <!-- NIDS Project (Existing) -->
             <div class="project-card">
                 <h3>Network Intrusion Detection System (NIDS)</h3>
                 <p>
-                    A Python-based NIDS that captures live network traffic, analyzes it against a set of
-                    custom signatures, and displays real-time alerts and statistics on a web dashboard.
+                    A Python-based NIDS that captures live network traffic, analyzes it against a set of 
+                    custom signatures, and displays real-time alerts and statistics on a web dashboard. 
                     Built with Scapy, FastAPI, and Streamlit.
                 </p>
-                <!-- Make sure this link points to your actual NIDS repository -->
                 <a href="https://github.com/Lando-cmd/NIDS" target="_blank">View on GitHub</a>
             </div>
+
+            <!-- Password Manager Project -->
+            <div class="project-card">
+                <h3>GUI Password Manager</h3>
+                <p>
+                    A simple GUI-based password manager built with Python and Tkinter. It allows users to securely store and retrieve passwords for different websites using AES encryption. Access is protected with a master password.
+                </p>
+                <a href="https://github.com/Lando-cmd/Pswd-Mngr" target="_blank">View on GitHub</a>
+            </div>
+
+            <!-- Backup Tool Project -->
+            <div class="project-card">
+                <h3>File Backup & Restore Tool</h3>
+                <p>
+                    A Python script for backing up and restoring files. It compresses a specified folder into a ZIP archive for backup and restores files by extracting from a ZIP archive via a command-line interface.
+                </p>
+                <a href="https://github.com/Lando-cmd/Backup-Tool" target="_blank">View on GitHub</a>
+            </div>
+            
+            <!-- Pokemon Project -->
+            <div class="project-card">
+                <h3>Pokémon Battle Simulator</h3>
+                <p>
+                    A command-line Pokémon battle simulator built in Python. This project demonstrates object-oriented programming principles by allowing users to engage in turn-based battles.
+                </p>
+                <a href="https://github.com/Lando-cmd/PKMN" target="_blank">View on GitHub</a>
+            </div>
+
         </section>
 
         <hr>
@@ -67,6 +112,8 @@
                 <li>FastAPI</li>
                 <li>Streamlit</li>
                 <li>Scapy</li>
+                <li>Tkinter</li>
+                <li>Cryptography</li>
                 <li>HTML & CSS</li>
                 <li>Git & GitHub</li>
             </ul>
@@ -80,9 +127,9 @@
             <p>I'm always open to connecting and discussing new projects or opportunities.</p>
             <ul>
                 <!-- Remember to replace these with your actual links later -->
-                <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+                <li>Email: <a href="landonsantamaria@gmail.com">your.email@example.com</a></li>
                 <li>GitHub: <a href="https://github.com/Lando-cmd" target="_blank">Lando-cmd</a></li>
-                <li>LinkedIn: <a href="#" target="_blank">Your LinkedIn Profile</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/landon-santa-maria-328b89178/" target="_blank">Your LinkedIn Profile</a></li>
             </ul>
         </section>
     </main>
@@ -92,4 +139,5 @@
     </footer>
 
 </body>
+
 </html>
