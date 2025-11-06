@@ -1,0 +1,156 @@
+/* --- Global Styles & Variables --- */
+:root {
+    --bg-color: #121212; /* Very dark grey, almost black */
+    --primary-color: #1E1E1E; /* Lighter grey for cards/sections */
+    --text-color: #E0E0E0; /* Off-white for readability */
+    --header-color: #FFFFFF; /* Pure white for main headings */
+    --accent-color: #00A8FF; /* A vibrant blue for links and highlights */
+    --border-color: #333333;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 40px 0;
+}
+
+/* --- Header & Navigation --- */
+header {
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-color);
+    text-align: center;
+}
+
+header nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: var(--accent-color);
+}
+
+/* --- Typography --- */
+h1, h2, h3 {
+    color: var(--header-color);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- Section Styling --- */
+section {
+    padding: 20px 0;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    color: #a0a0a0; /* Lighter grey for subtitle */
+}
+
+/* --- Call-to-Action Button --- */
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #007bb5; /* Darker blue on hover */
+    text-decoration: none;
+}
+
+/* --- Project Card Styling --- */
+.project-card {
+    background-color: var(--primary-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: var(--accent-color);
+}
+
+/* --- Skills & Contact List Styling --- */
+#skills ul, #contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+#contact li {
+    margin-bottom: 10px;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #888;
+    border-top: 1px solid var(--border-color);
+}
