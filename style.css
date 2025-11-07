@@ -153,4 +153,16 @@ footer {
     margin-top: 40px;
     color: #888;
     border-top: 1px solid var(--border-color);
+
+}
+
+/* --- Project Image Styling --- */
+.project-image {
+    width: 100%; /* Make image fill the width of the card */
+    max-height: 400px; /* Prevent extremely tall images from stretching the card */
+    object-fit: cover; /* Crop image nicely if it has a weird aspect ratio */
+    object-position: top; /* Show the top of the image when cropping */
+    border-radius: 5px; /* Give the image slightly rounded corners */
+    margin-bottom: 15px; /* Add some space between the image and the text below it */
+    border: 1px solid var(--border-color); /* Add a subtle border */
 }
